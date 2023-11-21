@@ -13,5 +13,5 @@
             "*": ["node_modules/*"]
         }
     },
-    "include": ["src/**/*", "server.ts"]
+    "include": ["src/**/*", "src/server.ts"]
 }

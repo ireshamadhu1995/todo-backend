@@ -1,8 +1,8 @@
 import * as dotenv from "dotenv";
 import cors from "cors";
 import express from "express";
-import { connectToDatabase } from "./src/todo/todo.db";
-import { todoRouter } from "./src/todo/todo.routes";
+import { connectToDatabase } from "./todo/todo.db";
+import { todoRouter } from "./todo/todo.routes";
 
 dotenv.config();
 
